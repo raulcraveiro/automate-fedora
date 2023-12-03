@@ -22,3 +22,4 @@ flatpak install flathub com.github.tchx84.Flatseal
 flatpak install flathub net.davidotek.pupgui2
 flatpak install flathub com.usebottles.bottles
 flatpak install flathub io.github.mimbrero.WhatsAppDesktop
+flatpak install flathub io.gitlab.news_flash.NewsFlash
