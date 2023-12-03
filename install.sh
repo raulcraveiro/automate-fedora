@@ -4,7 +4,10 @@
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
 # Instalar o driver da NVIDIA e CUDA
-sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda
+sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda -y
+
+# Instalar o Piper para gerenciar o MX Master 3
+sudo dnf install piper -y
 
 # Instalar aplicativos em flatpak
 flatpak install flathub org.yuzu_emu.yuzu
