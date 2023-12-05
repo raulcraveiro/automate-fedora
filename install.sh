@@ -6,6 +6,11 @@ sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-releas
 # Instalar o driver da NVIDIA e CUDA
 sudo dnf install akmod-nvidia xorg-x11-drv-nvidia-cuda -y
 
+# Instalar o 1Password
+sudo rpm --import https://downloads.1password.com/linux/keys/1password.asc
+sudo sh -c 'echo -e "[1password]\nname=1Password Stable Channel\nbaseurl=https://downloads.1password.com/linux/rpm/stable/\$basearch\nenabled=1\ngpgcheck=1\nrepo_gpgcheck=1\ngpgkey=\"https://downloads.1password.com/linux/keys/1password.asc\"" > /etc/yum.repos.d/1password.repo'
+sudo dnf install 1password -y
+
 # Instalar o Piper para gerenciar o MX Master 3
 sudo dnf install piper -y
 
