@@ -14,6 +14,9 @@ sudo dnf install 1password -y
 # Instalar o Piper para gerenciar o MX Master 3
 sudo dnf install piper -y
 
+# Instalar o GNOME Tweaks para configurar o botão de minimizar
+sudo dnf install gnome-tweaks -y
+
 # Instalar aplicativos em flatpak
 flatpak install flathub org.yuzu_emu.yuzu
 flatpak install flathub com.discordapp.Discord
@@ -28,3 +31,4 @@ flatpak install flathub net.davidotek.pupgui2
 flatpak install flathub com.usebottles.bottles
 flatpak install flathub io.github.mimbrero.WhatsAppDesktop
 flatpak install flathub io.gitlab.news_flash.NewsFlash
+flatpak install flathub com.heroicgameslauncher.hgl
