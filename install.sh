@@ -17,11 +17,16 @@ sudo dnf install piper -y
 # Instalar o GNOME Tweaks para configurar o botão de minimizar
 sudo dnf install gnome-tweaks -y
 
-# Instalar o Steam
+# Instalar ferramentas para jogos
 sudo dnf install steam -y
+flatpak install flathub com.vysp3r.ProtonPlus
+flatpak install flathub com.steamgriddb.steam-rom-manager
+flatpak install flathub org.yuzu_emu.yuzu
+flatpak install flathub com.usebottles.bottles
+flatpak install flathub com.heroicgameslauncher.hgl
 
 # Instalar aplicativos em flatpak
-flatpak install flathub org.yuzu_emu.yuzu
+
 flatpak install flathub com.discordapp.Discord
 flatpak install flathub com.spotify.Client
 flatpak install flathub org.gimp.GIMP
@@ -31,7 +36,5 @@ flatpak install flathub org.gnome.Boxes
 flatpak install flathub com.mattjakeman.ExtensionManager
 flatpak install flathub com.github.tchx84.Flatseal
 flatpak install flathub net.davidotek.pupgui2
-flatpak install flathub com.usebottles.bottles
 flatpak install flathub io.github.mimbrero.WhatsAppDesktop
 flatpak install flathub io.gitlab.news_flash.NewsFlash
-flatpak install flathub com.heroicgameslauncher.hgl
