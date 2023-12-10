@@ -22,6 +22,7 @@ sudo dnf install steam -y
 flatpak install flathub com.vysp3r.ProtonPlus
 flatpak install flathub com.steamgriddb.steam-rom-manager
 flatpak install flathub org.yuzu_emu.yuzu
+flatpak install flathub info.cemu.Cemu
 flatpak install flathub com.usebottles.bottles
 flatpak install flathub com.heroicgameslauncher.hgl
 
