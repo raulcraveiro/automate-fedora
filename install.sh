@@ -17,6 +17,9 @@ sudo dnf install piper -y
 # Instalar o GNOME Tweaks para configurar o botão de minimizar
 sudo dnf install gnome-tweaks -y
 
+# Instalar o Steam
+sudo dnf install steam -y
+
 # Instalar aplicativos em flatpak
 flatpak install flathub org.yuzu_emu.yuzu
 flatpak install flathub com.discordapp.Discord
