@@ -19,6 +19,7 @@ sudo dnf install gnome-tweaks -y
 
 # Instalar ferramentas para jogos
 sudo dnf install steam -y
+sudo dnf install goverlay -y
 flatpak install flathub com.vysp3r.ProtonPlus
 flatpak install flathub com.steamgriddb.steam-rom-manager
 flatpak install flathub org.yuzu_emu.yuzu
