@@ -17,6 +17,9 @@ sudo dnf install piper -y
 # Instalar o GNOME Tweaks para configurar o botão de minimizar
 sudo dnf install gnome-tweaks -y
 
+# Instalar o Google Chrome
+sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y
+
 # Instalar ferramentas para jogos
 sudo dnf install steam -y
 sudo dnf install goverlay -y
