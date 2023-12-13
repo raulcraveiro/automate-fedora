@@ -18,7 +18,9 @@ sudo dnf install piper -y
 sudo dnf install gnome-tweaks -y
 
 # Instalar o Google Chrome (e remover o aviso de gerenciado pela organização)
-sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y
+sudo dnf install fedora-workstation-repositories -y
+sudo dnf config-manager --set-enabled google-chrome
+sudo dnf install google-chrome-stable -y
 sudo dnf remove fedora-chromium-config -y
 
 # Instalar ferramentas para jogos
