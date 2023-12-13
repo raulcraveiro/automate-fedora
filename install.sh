@@ -17,8 +17,9 @@ sudo dnf install piper -y
 # Instalar o GNOME Tweaks para configurar o botão de minimizar
 sudo dnf install gnome-tweaks -y
 
-# Instalar o Google Chrome
+# Instalar o Google Chrome (e remover o aviso de gerenciado pela organização)
 sudo dnf install https://dl.google.com/linux/direct/google-chrome-stable_current_x86_64.rpm -y
+sudo dnf remove fedora-chromium-config -y
 
 # Instalar ferramentas para jogos
 sudo dnf install steam -y
