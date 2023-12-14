@@ -41,7 +41,6 @@ flatpak install flathub com.usebottles.bottles
 flatpak install flathub com.heroicgameslauncher.hgl
 
 # Instalar aplicativos em flatpak
-
 flatpak install flathub com.discordapp.Discord
 flatpak install flathub com.spotify.Client
 flatpak install flathub org.gimp.GIMP
@@ -53,3 +52,4 @@ flatpak install flathub com.github.tchx84.Flatseal
 flatpak install flathub net.davidotek.pupgui2
 flatpak install flathub io.github.mimbrero.WhatsAppDesktop
 flatpak install flathub io.gitlab.news_flash.NewsFlash
+flatpak install flathub io.gitlab.adhami3310.Converter
