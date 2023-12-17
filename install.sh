@@ -43,6 +43,7 @@ flatpak install flathub com.heroicgameslauncher.hgl
 # Instalar aplicativos em flatpak
 flatpak install flathub com.discordapp.Discord
 flatpak install flathub com.spotify.Client
+flatpak install flathub tech.feliciano.pocket-casts
 flatpak install flathub org.gimp.GIMP
 flatpak install flathub com.obsproject.Studio
 flatpak install flathub org.videolan.VLC
@@ -53,6 +54,7 @@ flatpak install flathub net.davidotek.pupgui2
 flatpak install flathub io.github.mimbrero.WhatsAppDesktop
 flatpak install flathub io.gitlab.news_flash.NewsFlash
 flatpak install flathub io.gitlab.adhami3310.Converter
+flatpak install flathub org.freedownloadmanager.Manager
 
 # Baixar fontes e instalar
 wget -O Fontes.zip "https://fonts.google.com/download?family=Open%20Sans|Playfair%20Display|Oswald|Poppins|PT%20Mono|PT%20Sans|PT%20Serif|Bebas%20Neue|DM%20Serif%20Display|Raleway|Fira%20Code|Fira%20Mono|Fira%20Sans|Fira%20Sans%20Condensed|Fira%20Sans%20Extra%20Condensed|Roboto|Roboto%20Mono|Roboto%20Serif|Rubik|Source%20Code%20Pro|IBM%20Plex%20Sans|IBM%20Plex%20Serif|IBM%20Plex%20Mono|IBM%20Plex%20Sans%20Condensed|Ubuntu|Ubuntu%20Condensed|Ubuntu%20Mono|Work%20Sans|Inter|Lato|Merriweather|Merriweather%20Sans|Libre%20Baskerville|Montserrat|Nunito|Nunito%20Sans"
@@ -60,3 +62,5 @@ sudo mkdir -p /user/share/fonts/googlefonts
 cd /user/share/fonts/googlefonts
 sudo unzip -d . ~/Downloads/Fontes.zip
 sudo fc-cache -fv
+
+# O que adicionar como webapp depois: Notion, Figma
