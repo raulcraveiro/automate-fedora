@@ -30,6 +30,9 @@ sudo dnf config-manager --set-enabled google-chrome
 sudo dnf install google-chrome-stable -y
 sudo dnf remove fedora-chromium-config -y
 
+# Instalar as fontes da Microsoft
+sudo dnf install https://downloads.sourceforge.net/project/mscorefonts2/rpms/msttcore-fonts-installer-2.6-1.noarch.rpm -y
+
 # Instalar ferramentas para jogos
 sudo dnf install steam -y
 sudo dnf install goverlay -y
