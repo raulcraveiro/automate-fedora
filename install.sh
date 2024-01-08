@@ -49,7 +49,7 @@ flatpak install flathub com.spotify.Client
 flatpak install flathub tech.feliciano.pocket-casts
 flatpak install flathub org.gimp.GIMP
 flatpak install flathub com.obsproject.Studio
-flatpak install flathub org.videolan.VLC
+flatpak install flathub io.github.celluloid_player.Celluloid
 flatpak install flathub org.gnome.Boxes
 flatpak install flathub com.mattjakeman.ExtensionManager
 flatpak install flathub com.github.tchx84.Flatseal
