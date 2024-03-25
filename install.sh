@@ -24,6 +24,9 @@ sudo dnf install piper -y
 # Instalar o GNOME Tweaks para configurar o botão de minimizar
 sudo dnf install gnome-tweaks -y
 
+# Instalar o GUFW pra gerenciar o firewall
+sudo dnf install gufw -y
+
 # Instalar o Google Chrome (e remover o aviso de gerenciado pela organização)
 sudo dnf install fedora-workstation-repositories -y
 sudo dnf config-manager --set-enabled google-chrome
