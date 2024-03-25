@@ -70,4 +70,63 @@ cd /user/share/fonts/googlefonts
 sudo unzip -d . ~/Downloads/Fontes.zip
 sudo fc-cache -fv
 
+# Outras fontes para ajustar depois
+#font-open-sans
+#font-playfair-display
+#font-oswald
+#font-poppins
+#font-pt-mono
+#font-pt-sans	
+#font-pt-serif	
+#font-raleway		
+#font-roboto		
+#font-roboto-mono		
+#font-roboto-serif
+#font-rubik
+#font-source-code-pro	
+#font-ubuntu
+#font-ubuntu-condensed
+#font-ubuntu-mono
+#font-work-sans
+#font-open-sans
+#font-playfair-display
+#font-oswald
+#font-poppins
+#font-pt-mono
+#font-pt-sans
+#font-bebas-neue			
+#font-pt-serif
+#font-dm-serif-display		
+#font-raleway
+#font-fira-code			
+#font-roboto
+#font-fira-mono			
+#font-roboto-mono
+#font-fira-sans			
+#font-roboto-serif
+#font-fira-sans-condensed	
+#font-rubik
+#font-fira-sans-extra-condensed
+#font-source-code-pro
+#font-ibm-plex			
+#font-ubuntu
+#font-ibm-plex-mono		
+#font-ubuntu-condensed
+#font-ibm-plex-sans		
+#font-ubuntu-mono
+#font-ibm-plex-sans-condensed	
+#font-work-sans
+#font-ibm-plex-serif	
+#font-inter	
+#font-lato		
+#font-libre-baskerville	
+#font-merriweather		
+#font-merriweather-sans	
+#font-montserrat	
+#font-noto-mono	
+#font-noto-sans	
+#font-noto-serif	
+#font-nunito
+#font-nunito-sans	
+
 # O que adicionar como webapp depois: Notion, Figma
