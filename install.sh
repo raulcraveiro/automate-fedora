@@ -41,6 +41,7 @@ sudo dnf install steam -y
 sudo dnf install goverlay -y
 flatpak install flathub com.vysp3r.ProtonPlus
 flatpak install flathub com.steamgriddb.steam-rom-manager
+flatpak install flathub com.steamgriddb.SGDBoop
 flatpak install flathub info.cemu.Cemu
 flatpak install flathub com.usebottles.bottles
 flatpak install flathub com.heroicgameslauncher.hgl
