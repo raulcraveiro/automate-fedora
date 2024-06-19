@@ -24,9 +24,6 @@ sudo dnf install piper -y
 # Instalar o GNOME Tweaks para configurar o botão de minimizar
 sudo dnf install gnome-tweaks -y
 
-# Instalar o GUFW pra gerenciar o firewall
-sudo dnf install gufw -y
-
 # Instalar o Google Chrome (e remover o aviso de gerenciado pela organização)
 sudo dnf install fedora-workstation-repositories -y
 sudo dnf config-manager --set-enabled google-chrome
@@ -38,7 +35,6 @@ sudo dnf install https://downloads.sourceforge.net/project/mscorefonts2/rpms/mst
 
 # Instalar ferramentas para jogos
 sudo dnf install steam -y
-sudo dnf install goverlay -y
 flatpak install flathub com.vysp3r.ProtonPlus
 flatpak install flathub com.steamgriddb.steam-rom-manager
 flatpak install flathub com.steamgriddb.SGDBoop
@@ -56,70 +52,8 @@ flatpak install flathub io.github.celluloid_player.Celluloid
 flatpak install flathub org.gnome.Boxes
 flatpak install flathub com.mattjakeman.ExtensionManager
 flatpak install flathub com.github.tchx84.Flatseal
-flatpak install flathub io.github.mimbrero.WhatsAppDesktop
 flatpak install flathub io.gitlab.news_flash.NewsFlash
-flatpak install flathub io.gitlab.adhami3310.Converter
-flatpak install flathub org.freedownloadmanager.Manager
-flatpak install flathub org.nickvision.tubeconverter
-flatpak install flathub org.gnome.NetworkDisplays
 
-# Outras fontes para ajustar depois
-#font-open-sans
-#font-playfair-display
-#font-oswald
-#font-poppins
-#font-pt-mono
-#font-pt-sans	
-#font-pt-serif	
-#font-raleway		
-#font-roboto		
-#font-roboto-mono		
-#font-roboto-serif
-#font-rubik
-#font-source-code-pro	
-#font-ubuntu
-#font-ubuntu-condensed
-#font-ubuntu-mono
-#font-work-sans
-#font-open-sans
-#font-playfair-display
-#font-oswald
-#font-poppins
-#font-pt-mono
-#font-pt-sans
-#font-bebas-neue			
-#font-pt-serif
-#font-dm-serif-display		
-#font-raleway
-#font-fira-code			
-#font-roboto
-#font-fira-mono			
-#font-roboto-mono
-#font-fira-sans			
-#font-roboto-serif
-#font-fira-sans-condensed	
-#font-rubik
-#font-fira-sans-extra-condensed
-#font-source-code-pro
-#font-ibm-plex			
-#font-ubuntu
-#font-ibm-plex-mono		
-#font-ubuntu-condensed
-#font-ibm-plex-sans		
-#font-ubuntu-mono
-#font-ibm-plex-sans-condensed	
-#font-work-sans
-#font-ibm-plex-serif	
-#font-inter	
-#font-lato		
-#font-libre-baskerville	
-#font-merriweather		
-#font-merriweather-sans	
-#font-montserrat	
-#font-noto-mono	
-#font-noto-sans	
-#font-noto-serif	
-#font-nunito
-#font-nunito-sans	
+# Instalar as fontes que estão na pasta: Fontes
 
-# O que adicionar como webapp depois: Notion, Figma
+# O que adicionar como webapp depois: Notion, Figma, Trello
