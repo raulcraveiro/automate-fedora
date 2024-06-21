@@ -53,7 +53,10 @@ flatpak install flathub org.gnome.Boxes
 flatpak install flathub com.mattjakeman.ExtensionManager
 flatpak install flathub com.github.tchx84.Flatseal
 flatpak install flathub io.gitlab.news_flash.NewsFlash
+flatpak install flathub org.mozilla.Thunderbird
 
 # Instalar as fontes que estão na pasta: Fontes
+
+# Aplicativos para instalar depois manualmente: DaVinci Resolve, Figma for Desktop
 
 # O que adicionar como webapp depois: Notion, Figma, Trello
