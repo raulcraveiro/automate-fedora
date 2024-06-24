@@ -54,9 +54,14 @@ flatpak install flathub com.mattjakeman.ExtensionManager
 flatpak install flathub com.github.tchx84.Flatseal
 flatpak install flathub io.gitlab.news_flash.NewsFlash
 flatpak install flathub org.mozilla.Thunderbird
+flatpak install flathub org.nickvision.tubeconverter
+flatpak install flathub org.localsend.localsend_app
+flatpak install flathub page.codeberg.libre_menu_editor.LibreMenuEditor
+flatpak install flathub de.haeckerfelix.Fragments
+flatpak install flathub io.github.pwr_solaar.solaar
 
 # Instalar as fontes que estão na pasta: Fontes
 
-# Aplicativos para instalar depois manualmente: DaVinci Resolve, Figma for Desktop
+# Aplicativos para instalar depois manualmente: DaVinci Resolve, Figma for Desktop, Sunshine, Insync, 
 
 # O que adicionar como webapp depois: Notion, Figma, Trello
