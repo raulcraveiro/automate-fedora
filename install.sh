@@ -11,7 +11,7 @@ sudo dnf install nvidia-vaapi-driver -y
 sudo dnf swap ffmpeg-free ffmpeg --allowerasing -y
 sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin -y
 sudo dnf groupupdate sound-and-video -y
-sudo dnf install amrnb amrwb faad2 flac gpac-libs lame libde265 libfc14audiodecoder mencoder x264 x265 -y
+sudo dnf install amrnb amrwb faad2 flac gpac-libs lame libde265 libfc14audiodecoder mencoder x264 x265 ffmpegthumbnailer -y
 
 # Instalar o 1Password
 sudo rpm --import https://downloads.1password.com/linux/keys/1password.asc
