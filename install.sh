@@ -66,3 +66,4 @@ flatpak install flathub io.github.brunofin.Cohesion
 # Instalar as fontes que estão na pasta: Fontes
 # Aplicativos para instalar depois manualmente: DaVinci Resolve, Figma for Desktop, Insync
 # O que adicionar como webapp depois: Trello
+# Ajustar os problemas do DaVinci Resolve segundo esse tutorial: https://github.com/H3rz3n/Davinci-Resolve-Fedora-38-39-40-Fix
