@@ -9,8 +9,6 @@ sudo dnf install nvidia-vaapi-driver -y
 
 # Corrigir os problemas de codec
 sudo dnf swap ffmpeg-free ffmpeg --allowerasing -y
-sudo dnf groupupdate multimedia --setop="install_weak_deps=False" --exclude=PackageKit-gstreamer-plugin -y
-sudo dnf groupupdate sound-and-video -y
 sudo dnf install amrnb amrwb faad2 flac gpac-libs lame libde265 libfc14audiodecoder mencoder x264 x265 ffmpegthumbnailer -y
 
 # Instalar o 1Password
@@ -25,8 +23,6 @@ sudo dnf install piper -y
 sudo dnf install gnome-tweaks -y
 
 # Instalar o Google Chrome (e remover o aviso de gerenciado pela organização)
-sudo dnf install fedora-workstation-repositories -y
-sudo dnf config-manager --set-enabled google-chrome
 sudo dnf install google-chrome-stable -y
 sudo dnf remove fedora-chromium-config -y
 
@@ -52,18 +48,14 @@ flatpak install flathub io.github.celluloid_player.Celluloid
 flatpak install flathub org.gnome.Boxes
 flatpak install flathub com.mattjakeman.ExtensionManager
 flatpak install flathub com.github.tchx84.Flatseal
-flatpak install flathub org.mozilla.Thunderbird
 flatpak install flathub org.nickvision.tubeconverter
 flatpak install flathub org.localsend.localsend_app
 flatpak install flathub page.codeberg.libre_menu_editor.LibreMenuEditor
 flatpak install flathub de.haeckerfelix.Fragments
 flatpak install flathub com.rtosta.zapzap
 flatpak install flathub com.todoist.Todoist
-flatpak install flathub com.discordapp.Discord
-flatpak install flathub io.github.pwr_solaar.solaar
-flatpak install flathub io.github.brunofin.Cohesion
 
 # Instalar as fontes que estão na pasta: Fontes
-# Aplicativos para instalar depois manualmente: DaVinci Resolve, Figma for Desktop, Insync
+# Aplicativos para instalar depois manualmente: DaVinci Resolve, Insync
 # O que adicionar como webapp depois: Trello
 # Ajustar os problemas do DaVinci Resolve segundo esse tutorial: https://github.com/H3rz3n/Davinci-Resolve-Fedora-38-39-40-Fix
