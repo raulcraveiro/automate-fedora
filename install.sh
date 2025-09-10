@@ -1,5 +1,37 @@
 #!/bin/bash
 
+
+# Colaboração: Fernando Souza - https://www.youtube.com/@fernandosuporte/
+# Data: 17/01/2025
+
+# -----------------------------------------------------------------------------------------------------------------------
+
+clear
+
+echo "
+Verificando o acesso à internet..."
+
+
+ping -c 5 www.google.com.br  1> /dev/null 2> /dev/null
+
+
+if [ "$?" -eq "0" ];
+then 
+
+      echo -e "\e[1;32m\n[VERIFICADO] - Conexão com à internet funcionando normalmente.\n\e[0m"
+
+      sleep 20
+else 
+
+     echo -e "\e[1;31m\n[ERRO] - Seu sistema não tem conexão com à internet. Verifique os cabos e o modem.\n\e[0m"
+
+     exit
+
+fi
+
+# -----------------------------------------------------------------------------------------------------------------------
+
+
 # Instalar o RPM Fusion
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 
@@ -59,3 +91,6 @@ flatpak install flathub com.todoist.Todoist
 # Aplicativos para instalar depois manualmente: DaVinci Resolve, Insync
 # O que adicionar como webapp depois: Trello
 # Ajustar os problemas do DaVinci Resolve segundo esse tutorial: https://github.com/H3rz3n/Davinci-Resolve-Fedora-38-39-40-Fix
+
+
+exit 0
